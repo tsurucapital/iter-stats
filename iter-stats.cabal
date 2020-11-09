@@ -18,8 +18,7 @@ cabal-version:       >=1.8
 library
   exposed-modules:     Statistics.Iteratee,
                        Statistics.Iteratee.Compat,
-                       Statistics.Iteratee.Sample,
-                       Statistics.Iteratee.Uniform
+                       Statistics.Iteratee.Sample
   -- other-modules:
   build-depends:       base >=4.5 && < 4.14,
                        heap == 1.*,
